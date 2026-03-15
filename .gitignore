@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+dist/
+
+# Environment
+.env
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Debug Artifacts
+walmart-debug-*
+*.png
+*.html
+
+# Logs and Data
+# As per assessment requirements, these are part of the deliverables,
+# so we typically don't ignore them here if they need to be committed.
+# errors.log
+# product_data.csv
+
+# System
+.DS_Store
